@@ -8,7 +8,7 @@
 [![Code Climate][badge-code-climate]][link-code-climate]
 [![Test Coverage][badge-coverage]][link-coverage]
 
-Coordinates [form validation](https://packagist.org/packages/bootpress/validator), errors, messages, values, and inputs in a [DRY](http://en.wikipedia.org/wiki/Don%27t_repeat_yourself) [KISS](http://en.wikipedia.org/wiki/Keep_it_simple_stupid) way.
+Coordinates form validation, errors, messages, values, and inputs in a [DRY](http://en.wikipedia.org/wiki/Don%27t_repeat_yourself) [KISS](http://en.wikipedia.org/wiki/Keep_it_simple_stupid) way.
 
 ## Installation
 
@@ -45,7 +45,7 @@ $form->set('values', array(
 ));
 ```
 
-Now the form's menus and default values have been set up, and you have a ``$form->validator`` object filled with ``$_POST`` vars, ready to go.  You don't have to use the ``$form->validator``, but it sure makes things easier for you.
+Now the form's menus and default values have been set up, and you have a ``$form->validator`` object filled with ``$_POST`` vars, ready to go.  You don't have to use the [BootPress Validator Component](https://packagist.org/packages/bootpress/validator), but it sure makes things easier for you.
 
 ```php
 $form->validator->set(array(
