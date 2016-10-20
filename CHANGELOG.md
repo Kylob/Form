@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 ### Added
-- New Feature
+- 
 
-## [1.0] - YYYY-MM-DD
+## [1.0] - 2016-10-20
 - Initial Release
