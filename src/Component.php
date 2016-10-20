@@ -134,7 +134,7 @@ class Component
      */
     public function eject()
     {
-        if ($this->page->get('submitted')) {
+        if ($this->page->get('submitted') == $this->header['name']) {
             $this->page->eject($this->eject);
         }
     }
