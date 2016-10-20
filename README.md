@@ -8,7 +8,7 @@
 [![Code Climate][badge-code-climate]][link-code-climate]
 [![Test Coverage][badge-coverage]][link-coverage]
 
-Coordinates form validation, errors, messages, values, and inputs in a [DRY](http://en.wikipedia.org/wiki/Don%27t_repeat_yourself) [KISS](http://en.wikipedia.org/wiki/Keep_it_simple_stupid) way.
+Coordinates [form validation](https://packagist.org/packages/bootpress/validator), errors, messages, values, and inputs in a [DRY](http://en.wikipedia.org/wiki/Don%27t_repeat_yourself) [KISS](http://en.wikipedia.org/wiki/Keep_it_simple_stupid) way.
 
 ## Installation
 
@@ -92,7 +92,8 @@ That would give you the following HTML:
         
         <input type="text" placeholder="Email Address" name="email" id="emailII" value="me@example.com" data-rule-required="true" data-rule-email="true">
         
-        <div class="radio"><label><input type="radio" name="gender" value="M" checked="checked" data-rule-required="true" data-rule-inList="M,F"> Male</label></div> <div class="radio"><label><input type="radio" name="gender" value="F"> Female</label></div>
+        <div class="radio"><label><input type="radio" name="gender" value="M" checked="checked" data-rule-required="true" data-rule-inList="M,F"> Male</label></div>
+        <div class="radio"><label><input type="radio" name="gender" value="F"> Female</label></div>
         
         <input type="password" name="password" id="passwordIV" data-rule-required="true" data-rule-minlength="5" data-rule-nowhitespace="true">
         
