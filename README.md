@@ -51,7 +51,7 @@ Now the form's menus and default values have been set up, and you have a ``$form
 $form->validator->set(array(
     'name' => 'required',
     'email' => 'required|email',
-    'gender' => 'required|inList",
+    'gender' => 'required|inList',
     'password' => 'required|minLength[5]|noWhiteSpace',
     'confirm' => 'required|matches[password]',
     'feedback' => 'maxWords[2]',
@@ -64,7 +64,7 @@ if ($vars = $form->validator->certified()) {
 }
 ```
 
-Now to create the form:
+When you create a ``$form->menu()``, we automatically pass it's values to the validator so that you can ``$form->validator->set('field', 'inList')`` with no params, and still be covered.  That's why we didn't put '**inList[M,F]**' for your gender above.  To create the form:
 
 ```php
 echo $form->header();
