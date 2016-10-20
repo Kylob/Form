@@ -1,0 +1,25 @@
+{
+    "name": "bootpress/form",
+    "description": "Coordinates form validation, errors, messages, values, and inputs in a DRY KISS way.",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kyle Gadd",
+            "email": "kyle.gadd@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "bootpress/page": "^1.0",
+        "bootpress/validator": "^1.0"
+    },
+    "require-dev": {
+        "bootpress/htmlunit": "^1.0",
+        "friendsofphp/php-cs-fixer": "^1.0",
+        "squizlabs/php_codesniffer": "^2.5"
+    },
+    "autoload": {
+        "psr-4": { "BootPress\\Form\\": "src" }
+    }
+}
