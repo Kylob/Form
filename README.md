@@ -110,7 +110,7 @@ That would give you the following HTML:
 </form>
 ```
 
-You may want to put some labels and error messages in there, but this component is meant to be a bare-bones, just-get-the-hard-stuff-done first, so that you can style it anyway you like.
+You may want to put some labels and error messages in there, but this Form component is meant to be a bare-bones, just-get-the-hard-stuff-done first, so that you can style it anyway you like.
 
 ## License
 
