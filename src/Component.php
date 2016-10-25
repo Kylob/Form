@@ -140,7 +140,7 @@ class Component
     }
 
     /**
-     * This will begin the form with all of the attributes you have established in ``$this->headers`` array.  The values we have already set (but may be overridden) are:.
+     * This will begin the form with all of the attributes you have established in ``$this->header`` array.  The values we have already set (but may be overridden) are:.
      *
      * - '**name**' - The name of your form.
      * - '**method**' - Either 'get' or 'post'.
