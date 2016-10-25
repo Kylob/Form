@@ -332,8 +332,8 @@ class Component
      * @return string Radio ``<label><input type="radio" ...></label>`` html tags.
      * 
      * ```php
-     * $gender = $form->menu('gender', array('M'=>'Male', 'F'=>'Female')); // A radio menu
-     * $form->validator->set('gender', "required|inList[{$gender}]");
+     * $form->menu('gender', array('M'=>'Male', 'F'=>'Female'));
+     * $form->validator->set('gender', 'required|inList');
      * 
      * echo $form->radio('gender');
      * ```
