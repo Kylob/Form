@@ -25,6 +25,8 @@ Add the following to your ``composer.json`` file.
 ## Example Usage
 
 ```php
+<?php
+
 use BootPress\Form\Component as Form;
 
 $form = new Form('form', 'post');
