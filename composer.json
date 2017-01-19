@@ -2,6 +2,7 @@
     "name": "bootpress/form",
     "description": "Coordinates form validation, errors, messages, values, and inputs in a DRY KISS way.",
     "keywords": [],
+    "homepage": "https://www.bootpress.org/components/form.html",
     "license": "MIT",
     "authors": [
         {
